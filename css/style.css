@@ -1,0 +1,49 @@
+/* tüm etiketlere etki etmesi için yıldızlı tercih yaptık. sayfadaki padding ve border gibi değerleri koyduğumuzda değişmemesi için bunu koyduk */
+* {
+  box-sizing: border-box;
+}
+
+/*body'deki tüm elementlere etki edecek*/
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0; /*4 bir taraftan margin sıfırlandı*/
+}
+
+#menu {
+  height: 80px;
+  padding: 0 20px;
+}
+
+#logo {
+  font-size: 30px;
+  line-height: 80px;
+  color: rgb(102, 35, 189);
+  float: left;
+}
+
+nav {
+  float: right;
+  line-height: 80px;
+}
+
+nav a:link {
+  text-decoration: none;
+  margin-right: 25px;
+  color: rgb(102, 35, 189);
+}
+
+nav a:hover {
+  border-bottom: 2px solid;
+  color: rgb(102, 35, 189);
+}
+
+nav a:visited {
+  text-decoration: none;
+  margin-right: 25px;
+  color: rgb(102, 35, 189);
+}
+
+.ikon {
+  margin-right: 7px;
+  font-size: 16px;
+}
